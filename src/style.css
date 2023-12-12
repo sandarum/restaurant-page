@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./my-font.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+
 *,
 *::before,
 *::after {
@@ -137,5 +144,22 @@ main {
     border: 1px solid goldenrod;
     flex: 1;
     opacity: 0.6;
+}
 
+.inner {
+    color: antiquewhite;
+    padding: 2rem;
+}
+
+.inner h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    font-family: 'MyFont', Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.inner p {
+    font-size: 1.1rem;
+    text-align: center;
 }
