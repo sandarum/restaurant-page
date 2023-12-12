@@ -159,7 +159,32 @@ main {
     padding-bottom: 3rem;
 }
 
+.inner h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.inner h3 {
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
 .inner p {
     font-size: 1.1rem;
     text-align: center;
+}
+
+.itemContainer {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.itemContainer > h3 {
+    padding-bottom: 1rem;
 }
